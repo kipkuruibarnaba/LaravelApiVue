@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Install Vue Router
+
+```sh
+npm install vue-router@4
+```

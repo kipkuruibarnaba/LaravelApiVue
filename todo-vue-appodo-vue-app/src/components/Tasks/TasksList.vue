@@ -4,7 +4,7 @@
             <input class="form-check-input mt-0 "  type="checkbox"  :class="completedClass" :checked="task.is_completed"
             @change="markTaskAsCompleted"
              />
-
+              <div>  <span>{{ task.id }}</span></div>
             <div class="ms-2 flex-grow-1 " :class="completedClass" title="Double click the text to edit or remove"
             @dblclick="$event=>isEdit=true">
                 <div class="relative" v-if="isEdit">
